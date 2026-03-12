@@ -123,6 +123,35 @@ public class Assignment {
         }
 
 
+        int x=16;
+        int z=15;
+
+        String result=x<z? x+" is minimum":z+" is minimum";
+
+        System.out.println(result);
+
+
+        int o=5;
+        int p=10;
+//        int s=0;
+
+//        s=o;
+//        o=p;
+//        p=s;
+//        o=(o+p)-(p=o);
+
+//        o=o^p;
+//        p=o^p;
+//        o=o^p;
+
+        o=o+p;
+        p=o-p;
+        o=o-p;
+
+
+        System.out.println("o is "+o+" p is "+p);
+
+
 
 
     }
